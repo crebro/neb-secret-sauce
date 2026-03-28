@@ -2,6 +2,7 @@ export const SITE = {
   website: "https://neb-secret-sauce.vercel.app/", // replace this with your deployed domain
   author: "Creation Duwal",
   desc: "A collection of resrouces for NEB +2 students.",
+  profile: "https://creationduwal.com.np",
   title: "NEB Secret Sauce",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
@@ -12,6 +13,8 @@ export const SITE = {
   showBackButton: true, // show back button in post detail
   editPost: {
     enabled: false,
+    text: "Edit page",
+    url: "https://github.com/crebro/neb-secret-sauce/edit/main/",
   },
   dynamicOgImage: true,
   dir: "ltr", // "rtl" | "auto"
